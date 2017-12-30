@@ -14,6 +14,20 @@ description: 富成一个废物从今天开始
 </head>
 
 <body>
+	<header class="intro-header" style="background-image: url('/img/backimage.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Gavin Blog</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">Thinking will not overcome fear but action will.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+	</header>
+
 	<h1>{{ page.title }}</h1>
 	<h2>{{ page.description }}</h2>
 	<p>最新文章</p>
@@ -23,10 +37,5 @@ description: 富成一个废物从今天开始
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 		</li>
 		{% endfor %}
-	</ul>
-	<ul>
-		<li>
-			<a href="{{ site.baseurl }}/2017_12_29_hello.html">测试</a>
-		</li>
 	</ul>
 </body>
