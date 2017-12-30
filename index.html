@@ -3,7 +3,7 @@ layout: default
 title: 我的Blog
 description: 富成一个废物
 ---
-<head>
+<!-- <head>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<script>
 	  (adsbygoogle = window.adsbygoogle || []).push({
@@ -11,10 +11,9 @@ description: 富成一个废物
 	    enable_page_level_ads: true
 	  });
 	</script>
-</head>
+</head> -->
 
-<body>
-	{% for post in paginator.posts %}
+{% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -51,4 +50,4 @@ description: 富成一个废物
     {% endif %}
 </ul>
 {% endif %}
-</body>
+
