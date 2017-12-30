@@ -1,3 +1,3 @@
 url: "http://zengzhihui.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Zengzhihui/zengzhihui.github.io.git" # you code repository
+github_repo: "https://github.com/zengzhihui/zengzhihui.github.io.git" # you code repository
